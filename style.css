@@ -545,8 +545,8 @@ img.alignleft{margin:0 7px 2px 0;}
 	#wrapper{clear:both;padding:20px 0;}
 	
 	#main{
-	float:right;
-	width:680px;
+	float:center;
+	width:100%;
 	padding:15px 0 0 0;
 	}
 	
