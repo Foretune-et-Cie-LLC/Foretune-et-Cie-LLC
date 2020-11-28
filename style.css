@@ -75,11 +75,6 @@ color:#555;
 
 .logo p{float:left;}
 
-.logo span{display:flex;
-			position: relative;
-			bottom: 11px;
-			left: 10.5%;
-}
 
 
 /*************
@@ -584,6 +579,11 @@ img.alignleft{margin:0 7px 2px 0;}
 	width:480px;
 	display:table-cell;
 	}
+	.logo span{display:flex;
+		position: relative;
+		bottom: 11px;
+		left: 10.5%;
+}
 
 }
 
@@ -701,6 +701,13 @@ img.alignleft{margin:0 7px 2px 0;}
 	#footer.logo,#footer .info{width:100%;float:none;}
 	#footer .logo p{float:none;display:block;	}
 	#footer .logo img{float:none;padding:0;}
+
+	.logo span{display:flex;
+		position: relative;
+		bottom: 11px;
+		left: 18.5%;
+}
+
 }
 
 
@@ -723,6 +730,10 @@ img.alignleft{margin:0 7px 2px 0;}
 
   .alignleft,.alignright,img.alignleft,img.alignright{float:none;display:block;margin:0 auto 10px;}
 
+  .logo span{float:none;display:block;
+	bottom: 11px;
+	left:1%;
+}
 }
 
 
@@ -730,4 +741,10 @@ img.alignleft{margin:0 7px 2px 0;}
 	.grid{width:100%;margin:10px 0;}
 	.box img{max-width:100px;}
 	#mainBanner h2,#mainBanner p{font-size:80%;}
+	.logo span{float:none;display:block;
+		bottom: 11px;
+		left: 1.5%;
 }
+
+}
+
