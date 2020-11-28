@@ -75,7 +75,12 @@ color:#555;
 
 .logo p{float:left;}
 
-.logo span{display:block;}
+.logo span{display:flex;
+			position: relative;
+			bottom: 11px;
+			left: 50px;
+
+}
 
 
 /*************
